@@ -16,7 +16,7 @@ var groceries:Grocery[];
 groceries = [apples, grapes, bananas];
 
 for (var i = 0; i < groceries.length; i++) {
-    document.write(groceries[i].name + " ");
+    document.write(groceries[i].name);
     document.write("<br>");
 }
 
